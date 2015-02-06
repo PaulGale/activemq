@@ -98,12 +98,12 @@
 <tr>
 <td>
 <a href="<c:url value="connection.jsp?connectionID=${row.clientId}"/>">
-<form:tooltip text="${row.clientId}" length="10"/>
+<form:tooltip text="${row.clientId}" length="35"/>
 </a>
 </td>
-<td><form:tooltip text="${row.subscriptionName}" length="10"/></td>
-<td><form:tooltip text="${row.connectionId}" length="10"/></td>
-<td><form:tooltip text="${row.destinationName}" length="10"/></td>
+<td><form:tooltip text="${row.subscriptionName}" length="35"/></td>
+<td><form:tooltip text="${row.connectionId}" length="35"/></td>
+<td><form:tooltip text="${row.destinationName}" length="35"/></td>
 <td><c:out value="${row.selector}"/></td>
 <td><c:out value="${row.pendingQueueSize}" /></td>
 <td><c:out value="${row.dispatchedQueueSize}" /></td>
@@ -146,12 +146,12 @@
 <tr>
 <td>
 <a href="<c:url value="connection.jsp?connectionID=${row.clientId}"/>">
-<form:tooltip text="${row.clientId}" length="10"/>
+<form:tooltip text="${row.clientId}" length="35"/>
 </a>
 </td>
-<td><form:tooltip text="${row.subscriptionName}" length="10"/></td>
-<td><form:tooltip text="${row.connectionId}" length="10"/></td>
-<td><form:tooltip text="${row.destinationName}" length="10"/></td>
+<td><form:tooltip text="${row.subscriptionName}" length="35"/></td>
+<td><form:tooltip text="${row.connectionId}" length="35"/></td>
+<td><form:tooltip text="${row.destinationName}" length="35"/></td>
 <td><c:out value="${row.selector}"/></td>
 <td><c:out value="${row.pendingQueueSize}"/></td>
 <td><c:out value="${row.dispatchedQueueSize}"/></td>

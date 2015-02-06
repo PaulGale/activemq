@@ -58,8 +58,8 @@
       <directory>src/release</directory>
       <outputDirectory>/</outputDirectory>
       <includes>
-        <include>bin/macosx/wrapper.conf</include>
-        <include>bin/linux-*/wrapper.conf</include>
+        <include>conf/wrapper.conf</include>
+        <include>conf/wrapper-license.conf</include>
       </includes>
       <fileMode>0644</fileMode>
       <directoryMode>0755</directoryMode>
@@ -71,10 +71,8 @@
       <directory>src/release</directory>
       <outputDirectory>/</outputDirectory>
       <includes>
-        <include>bin/linux-*/wrapper</include>
-        <include>bin/linux-*/libwrapper.so</include>
-        <include>bin/macosx/wrapper</include>
-        <include>bin/macosx/libwrapper.jnilib</include>
+        <include>bin/wrapper</include>
+        <include>bin/libwrapper.so</include>
       </includes>
       <fileMode>0755</fileMode>
       <directoryMode>0755</directoryMode>
@@ -96,11 +94,8 @@
       <outputDirectory>/</outputDirectory>
       <includes>
         <include>bin/activemq</include>
-        <include>bin/env</include>
-        <include>bin/diag</include>
         <include>bin/activemq-admin</include>
-        <include>bin/macosx/activemq</include>
-        <include>bin/linux-*/activemq</include>
+        <include>bin/diag</include>
       </includes>
       <directoryMode>0755</directoryMode>
       <fileMode>0755</fileMode>

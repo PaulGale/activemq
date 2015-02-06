@@ -227,6 +227,9 @@
         <include>io.fabric8.insight:insight-log-core</include>
         <include>io.fabric8.insight:insight-log4j</include>
 
+        <!-- Make the mysql connector part of the package. - Paul -->
+        <include>mysql:mysql-connector-java</include>
+
       </includes>
     </dependencySet>
     <dependencySet>
